@@ -1,0 +1,102 @@
+﻿
+"version": 1,
+"size": {
+"x": 32,
+"y": 32
+},
+"license": "CC-BY-SA-3.0",
+"copyright": "Taken from https://github.com/discordia-space/CEV-Eris at commit 4e0bbe682d0a00192d24708fdb7031008aa03f18 and bee station at commit https://github.com/BeeStation/BeeStation-Hornet/commit/13dd5ac712385642574138f6d7b30eea7c2fab9c, 'direction_exam' and 'direction_icu' made by rosieposieeee (github), 'direction_atmos' made by SlamBamActionman, 'direction_pods' derived by WarPigeon from existing directional signs.,
+"states": [
+{
+"name": "direction_atmos",
+},
+{
+"name": "direction_bar",
+},
+{
+"name": "direction_exam",
+},
+{
+"name": "direction_icu",
+},
+{
+"name": "direction_janitor",
+},
+{
+"name": "direction_food",
+},
+{
+"name": "direction_hop",
+},
+{
+"name": "direction_library",
+},
+{
+"name": "direction_chemistry",
+},
+{
+"name": "direction_eng",
+},
+{
+"name": "direction_evac",
+},
+{
+"name": "direction_supply",
+},
+{
+"name": "direction_bridge",
+},
+{
+"name": "direction_med",
+},
+{
+"name": "direction_sci",
+},
+{
+"name": "direction_sec",
+},
+{
+"name": "direction_brig",
+},
+{
+"name": "direction_chapel",
+},
+{
+"name": "direction_hydro",
+},
+{
+"name": "direction_dorms",
+},
+{
+"name": "direction_cryo",
+},
+{
+"name": "direction_gravity",
+},
+{
+"name": "direction_salvage",
+},
+{
+"name": "direction_solar",
+},
+{
+"name": "direction_wash",
+},
+{
+"name": "direction_pods",
+},
+{
+"name": "arrow_up"
+},
+{
+"name": "arrow_down"
+},
+{
+"name": "arrow_left"
+},
+{
+"name": "arrow_right"
+}
+]
+}
+
