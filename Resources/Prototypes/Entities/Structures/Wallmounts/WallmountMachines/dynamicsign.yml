@@ -6,13 +6,36 @@
   components:
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/dynamicsign.rsi
+    sprite: Structures/Wallmount/dynamicsign.rsi
     layers:
-    - state: base
-      #up
-      #down
-      #left
-      #right
+    - state: dynamicsign
+    # Slot 1
+    - map: ["enum.DynamicSignVisualLayers.Slot1Label"]
+      state: direction_sec
+    - map: ["enum.DynamicSignVisualLayers.Slot1Arrow"]
+      state: arrow_up
+    # Slot 2
+    - map: ["enum.DynamicSignVisualLayers.Slot2Label"]
+      state: direction_med
+    - map: ["enum.DynamicSignVisualLayers.Slot2Arrow"]
+      state: arrow_right
+    # Slot 3
+    - map: ["enum.DynamicSignVisualLayers.Slot3Label"]
+      state: direction_bridge
+    - map: ["enum.DynamicSignVisualLayers.Slot3Arrow"]
+      state: arrow_down
+  - type: DirectionalSign
+    signEntries:
+    - areaName: "Security"
+      direction: North
+      labelState: direction_sec
+    - areaName: "Medical"
+      direction: East
+      labelState: direction_med
+    - areaName: "Bridge"
+      direction: South
+      labelState: direction_bridge
+  - type: Appearance
   - type: StationAiWhitelist
   - type: Electrified
     enabled: false
@@ -20,3 +43,16 @@
   - type: Battery
     maxCharge: 30000
     startingCharge: 500
+    wattage: 0.2
+  - type: PointLight
+    radius: 2
+    color: "#99ffff"
+    softness: 1
+    netsync: true
+    enabled: true
+  - type: AccessReader
+    access: [["Command"]]
+  - type: UserInterface
+    interfaces:
+    - key: Key
+      type: DirectionalSignBoundUserInterface
