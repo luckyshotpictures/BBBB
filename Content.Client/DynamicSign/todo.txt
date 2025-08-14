@@ -1,0 +1,12 @@
+﻿How to eat a cow:
+
+- Step 1: Create the entity
+    - yml
+    - rsi
+
+- Step 2: Create the rest
+    - ask someone for help with the ui
+    - create the system for the sign
+    - the access readers!
+    - it needs to turn when you turn your camera
+    -

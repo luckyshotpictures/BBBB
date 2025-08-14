@@ -1,0 +1,22 @@
+- type: entity
+  parent: BaseWallmountMachine
+  id: DynamicSign
+  name: directional sign
+  description: A sign that shows the directions to nearby areas.
+  components:
+  - type: Sprite
+    drawdepth: WallMountedItems
+    sprite: Structures/Wallmounts/dynamicsign.rsi
+    layers:
+    - state: base
+      #up
+      #down
+      #left
+      #right
+  - type: StationAiWhitelist
+  - type: Electrified
+    enabled: false
+    usesApcPower: true
+  - type: Battery
+    maxCharge: 30000
+    startingCharge: 500
